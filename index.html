@@ -13,8 +13,45 @@
     />
   </head>
   <body>
-    <h1>To Do List</h1>
-    <p>This to do app created with only dom. No database integrated!</p>
-    <section class="container"></section>
+    <h1 class="text-center mt-5">To Do List</h1>
+    <p class="text-danger text-center">
+      This to do app created with only dom. No database integrated!
+    </p>
+    <section class="container text-center">
+      <div class="w-50 mt-4 mx-auto">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="input your todo list"
+            aria-label="input your todo list"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn btn-outline-primary"
+            type="button"
+            id="button-addon2"
+          >
+            Add Item
+          </button>
+        </div>
+        <table class="table mt-3">
+          <thead>
+            <tr>
+              <th scope="col">Number</th>
+              <th scope="col">Description</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
   </body>
 </html>
