@@ -12,7 +12,7 @@ document.getElementById("button-addon2").addEventListener("click", function () {
   tr.innerHTML = `
     <th scope="row">${count}</th>
     <td>${inputText}</td>
-    <td>@twitter</td>
+    <td><button class="btn btn-danger btn-delete me-1">Delete</button><button class="btn btn-primary">Done</button></td>
   `;
 
   tableBody.appendChild(tr);
